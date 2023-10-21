@@ -35,4 +35,8 @@ app.post('/keywords',(req,res)=>{
     keywords(data,res)
 })
 
+app.post('*',(req,res)=>{
+    res.send("page not found");
+})
+
 module.exports=app
