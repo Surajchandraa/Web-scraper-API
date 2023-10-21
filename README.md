@@ -23,9 +23,10 @@ Using this api you can extract any website's data, like image src, title,text,de
 
 ## Routes:
 - Use different routes for different types of data.
-- images-extracting image
-- links-extracting links
-- title-extracting title
-- description-extracting description
-- paragraph-extracting paragraphs
+- images-> for image
+- links-> for links
+- title-> for title
+- description-> for description
+- paragraph-> for paragraphs
+- keywords-> for keywords
 
