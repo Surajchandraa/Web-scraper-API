@@ -29,6 +29,7 @@ Using this api you can extract any website's data, like image src, title,text,de
 - description-> for description
 - paragraph-> for paragraphs
 - keywords-> for keywords
+- social_media-> for social media links of a website
 
 ## i have also published web scrapping package on npm you can install it by `npm i web_scrap`.
 npm link[https://www.npmjs.com/package/web_scrap].
