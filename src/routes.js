@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
 app.use(express.json())
-const {paragraph,title,links,images, description, keywords}=require('./web_scrap');
+const {paragraph,title,links,images, description, keywords, social_media}=require('./web_scrap');
 
 
 app.post('/title',(req,res)=>{
@@ -34,7 +34,10 @@ app.post('/keywords',(req,res)=>{
     let data=req.body.url;
     keywords(data,res)
 })
-
+app.post('/social_media',(req,res)=>{
+    let data=req.body.url;
+    social_media(data,res);
+})
 app.post('*',(req,res)=>{
     res.send("page not found");
 })
